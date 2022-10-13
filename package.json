@@ -23,7 +23,6 @@
     "browserify-zlib": "^0.2.0",
     "dotenv": "^16.0.1",
     "ethers": "^5.6.9",
-    "hardhat": "^2.11.1",
     "https-browserify": "^1.0.0",
     "jquery": "^3.6.0",
     "os-browserify": "^0.3.0",
@@ -66,9 +65,22 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.9",
+    "hardhat": "^2.11.2",
     "react-app-rewired": "^2.2.1"
   },
   "bin": {
-    "make-web3-dapp": "./bin/generate-app.js"
-  }
+    "make-web3-dapp": "bin/generate-app.js"
+  },
+  "description": "Escrow contract governed by DAO using moralis on the frontend",
+  "main": "config-overrides.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lipe-lx/DAO-FULLSTACK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lipe-lx/DAO-FULLSTACK/issues"
+  },
+  "homepage": "https://github.com/Lipe-lx/DAO-FULLSTACK#readme"
 }
