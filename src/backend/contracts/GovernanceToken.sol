@@ -9,6 +9,7 @@ function supplyErc20ToCompound(uint256 _numTokensToSupply) external returns (uin
 function getHolderRewards(uint256 _stage) external view returns (uint256);
 }
 
+// Contrato do token de governaça
 contract GovernanceToken is ERC20Votes {
 // Numero maximo de tokens
 uint256 public maxSupply = 1000000 * 10**18;
